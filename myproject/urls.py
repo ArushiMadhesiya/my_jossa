@@ -15,8 +15,21 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import include, path
+from allauth.socialaccount import providers
+from django.views.generic import RedirectView
+from allauth.socialaccount.providers.oauth2.views import (
+    OAuth2Adapter,
+    OAuth2CallbackView,
+    OAuth2LoginView,
+   
+)
 
 urlpatterns = [
     path('myapp/', include('myapp.urls')),
     path('admin/', admin.site.urls),
+    # path('accounts/', include('allauth.urls')),
+    # path('accounts/google/login/callback/', OAuth2CallbackView.as_view(adapter=OAuth2Adapter)),
+    # path('accounts/google/login/', OAuth2LoginView.as_view(adapter=OAuth2Adapter)),
+    # path('accounts/google/', RedirectView.as_view(url='/accounts/google/login/')),
+    path('accounts/', include('allauth.urls')),
 ]
