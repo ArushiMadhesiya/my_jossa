@@ -8,7 +8,7 @@
 ![image](https://github.com/ArushiMadhesiya/my_jossa/assets/66735497/c7a8b020-1802-4382-97b8-e7bd59c29bf8)
 
 ## **Graph**
-![image](https://github.com/ArushiMadhesiya/my_jossa/assets/66735497/84b02b1e-0a63-47ca-b435-3875a260469a)
+![image](https://github.com/ArushiMadhesiya/my_jossa/assets/66735497/654ab522-904d-46ab-9510-ff3f46de3aae)
 
 ## **Table**
 ![sdgsf](https://github.com/ArushiMadhesiya/my_jossa/assets/66735497/4fc53cb5-74d5-4c4f-8c98-b635e64e1ba7)
