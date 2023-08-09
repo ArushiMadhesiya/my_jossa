@@ -1,89 +1,26 @@
-# simple-django-page
+Home page
+![Screenshot 2023-08-09 164751](https://github.com/ArushiMadhesiya/my_jossa/assets/66735497/505676a8-5fcb-4718-8f1e-f15f598e5523)
 
-First, start a new Django project:
+Academic Program Lookup
+![Screenshot 2023-08-09 162505](https://github.com/ArushiMadhesiya/my_jossa/assets/66735497/4e2ae9ff-3fe0-4fdc-8370-8ae1d9d46036)
 
-```python
-django-admin startproject myproject
-```
-This will create a new directory called "myproject" with the basic Django files. Next, create a new Django app:
+Choices
+![image](https://github.com/ArushiMadhesiya/my_jossa/assets/66735497/c7a8b020-1802-4382-97b8-e7bd59c29bf8)
 
-```python
-python manage.py startapp myapp
-```
-This will create a new directory called "myapp" with the basic Django app files.
+Graph
+![image](https://github.com/ArushiMadhesiya/my_jossa/assets/66735497/84b02b1e-0a63-47ca-b435-3875a260469a)
 
-Next, open the file "myproject/settings.py" and add "myapp" to the list of installed apps:
+Table
+![sdgsf](https://github.com/ArushiMadhesiya/my_jossa/assets/66735497/4fc53cb5-74d5-4c4f-8c98-b635e64e1ba7)
 
-```python
-INSTALLED_APPS = [    ...    'myapp',]
-```
-Next, create a new view in the file "myapp/views.py":
+Donate Us (Bonus)
+![image](https://github.com/ArushiMadhesiya/my_jossa/assets/66735497/721fc71c-db62-4d85-9f0d-d77691f67376)
 
-```python
-from django.shortcuts import render
+Razorpay
+![Screenshot 2023-08-09 162600](https://github.com/ArushiMadhesiya/my_jossa/assets/66735497/1e07d32f-7308-4714-aeab-2cbc798d4ff9)
 
-def home(request):
-    return render(request, 'myapp/home.html')
-```
-This view will use Django's render function to render a template called "home.html".
 
-Next, create the template "myapp/templates/myapp/home.html":
 
-```html
-<!doctype html>
-<html>
-  <head>
-    <title>My 1st App</title>
-    <style>
-      h1 {
-        color: #333;
-        text-align: center;
-        margin-top: 50px;
-      }
-      p {
-        font-size: 18px;
-        line-height: 1.6;
-        width: 60%;
-        margin: 0 auto;
-        text-align: justify;
-      }
-    </style>
-  </head>
-  <body>
-    <h1>My 1st App</h1>
-    <p>Welcome to my first Django app! This is a simple page with a title and a paragraph of text. I've added some basic CSS styling to make the page look a little bit better. I hope you like it!</p>
-  </body>
-</html>
-```
-This template includes a title, some basic CSS styling, and a paragraph of text.
 
-Next, create a new URL pattern in the file "myapp/urls.py":
 
-```python
-from django.urls import path
 
-from . import views
-
-urlpatterns = [
-    path('', views.home, name='home'),
-]
-```
-This URL pattern will map the root URL of the app to the "home" view.
-
-Finally, include the URL patterns of the app in the project's URL patterns in the file "myproject/urls.py":
-
-```python
-from django.contrib import admin
-from django.urls import include, path
-
-urlpatterns = [
-    path('myapp/', include('myapp.urls')),
-    path('admin/', admin.site.urls),
-]
-```
-Now you can start the development server and visit http://localhost:8000/myapp/ to see the page with the title "My 1st App" and the paragraph of text.
-
-```python
-python manage.py runserver
-```
-I hope this helps! Let me know if you have any questions
