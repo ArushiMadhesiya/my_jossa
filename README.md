@@ -18,6 +18,9 @@
 
 ## **Razorpay**
 ![Screenshot 2023-08-09 162600](https://github.com/ArushiMadhesiya/my_jossa/assets/66735497/1e07d32f-7308-4714-aeab-2cbc798d4ff9)
+## **Success Page**
+![image](https://github.com/ArushiMadhesiya/my_jossa/assets/66735497/cfd493a9-9d9e-4230-9e28-f6af0d37c000)
+
 
 *use success@razorpay for testing UPI payments*
 
