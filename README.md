@@ -1,4 +1,4 @@
-Home page
+<h3>**Home page**</h3>
 ![Screenshot 2023-08-09 164751](https://github.com/ArushiMadhesiya/my_jossa/assets/66735497/505676a8-5fcb-4718-8f1e-f15f598e5523)
 
 Academic Program Lookup
