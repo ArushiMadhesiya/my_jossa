@@ -1,7 +1,7 @@
-##**Home page**
+## **Home page**
 ![Screenshot 2023-08-09 164751](https://github.com/ArushiMadhesiya/my_jossa/assets/66735497/505676a8-5fcb-4718-8f1e-f15f598e5523)
 
-##**Academic Program Lookup**
+## **Academic Program Lookup**
 ![Screenshot 2023-08-09 162505](https://github.com/ArushiMadhesiya/my_jossa/assets/66735497/4e2ae9ff-3fe0-4fdc-8370-8ae1d9d46036)
 
 Choices
